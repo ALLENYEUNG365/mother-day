@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>母亲节快乐</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+            color: #FF6B6B;
+            animation: bounce 1.5s infinite;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #333;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        .flowers {
+            margin-top: 20px;
+        }
+        .flower {
+            display: inline-block;
+            font-size: 4rem;
+            margin: 0 10px;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>母亲节快乐！</h1>
+        <p>妈妈，感谢您如春风般的温暖，用无私的爱织就家的港湾。<br>
+        在这个属于您的日子里，愿您笑靥如花，幸福永伴。</p>
+        <div class="flowers">
+            <span class="flower">🌸</span>
+            <span class="flower">🌷</span>
+            <span class="flower">🌸</span>
+        </div>
+    </div>
+</body>
+</html>
